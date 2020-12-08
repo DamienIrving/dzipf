@@ -7,7 +7,7 @@ import utilities
 
 
 def count_words(reader):
-    """Count the occurrence of each BLAH word in a string."""
+    """Count the occurrence of each word in a string."""
     text = reader.read()
     chunks = text.split()
     stripped = [word.strip(string.punctuation) for word in chunks]
