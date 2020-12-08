@@ -3,7 +3,7 @@
 import string
 import argparse
 from collections import Counter
-from . import utilities
+import utilities
 
 
 def count_words(reader):
