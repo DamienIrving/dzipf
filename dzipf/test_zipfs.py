@@ -1,8 +1,8 @@
 import pytest
 import numpy as np
 from collections import Counter
-from dzipf import plotcounts
-from dzipf import countwords
+import plotcounts
+import countwords
 
 
 def test_alpha():
