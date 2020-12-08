@@ -3,7 +3,7 @@ import csv
 import argparse
 from collections import Counter
 import logging
-from dzipf import utilities
+import utilities
 
 
 def update_counts(reader, word_counts):
