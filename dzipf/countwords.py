@@ -3,7 +3,7 @@
 import string
 import argparse
 from collections import Counter
-from dzipf import utilities
+from . import utilities
 
 
 def count_words(reader):
