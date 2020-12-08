@@ -15,5 +15,7 @@ sphinx:
 python:
   version: 3.7
   install:
-    - method: setuptools
-      path: .
+     - requirements: requirements_docs.txt
+
+#    - method: setuptools
+#      path: .
